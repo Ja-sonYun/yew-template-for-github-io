@@ -22,6 +22,8 @@ Directory
 │       ├── css                 # css under here
 │       │   ├── index.scss
 │       │   ├── main.scss
+│       │   └── index.css
+│       ├── tailwind
 │       │   └── tailwind_base.css
 │       ├── package.json
 │       ├── tailwind.config.js
@@ -32,8 +34,7 @@ Directory
 └── public
     ├── index-14b268017422958e.js
     ├── index-14b268017422958e_bg.wasm
-    ├── main-fe645a1dfac56aa7.css
-    └── tailwind-b6199c5633ae30d.css
+    └── main-fe645a1dfac56aa7.css
 ```
 
 ## First setup

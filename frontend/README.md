@@ -2,3 +2,7 @@ run `trunk serve` to deploy on local. `trunk serve` also track css under style/c
 
 before run github action for deploy, run `./deploy.sh` to build for github.io. `deploy.sh` will run `trunk build --release` and move all generated files into the folder named 'public' under root folder of this project except index.html.   
 index.html will be moved to the root of this project.   
+
+------
+
+To use without github.io, just remove deploy.sh and use `trunk build`.

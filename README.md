@@ -1,5 +1,5 @@
 ## Yew Template for Github.io
-yew template that usable directly for github.io.
+Yew template that usable directly for github.io (or as the normal yew template with css stuffs without github.io).
 
 ```
 Directory

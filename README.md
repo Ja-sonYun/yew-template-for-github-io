@@ -39,7 +39,7 @@ Directory
 
 ## First setup
 
-move to the folder under frontend/style, run `npm i && npm run build`, or move to the folder under frontend, and just run `./deploy`
+move to the folder under frontend/style, run `npm i && npm run build`, or move to the folder under frontend, and just run `./deploy.sh`
 
 ## Flow
 

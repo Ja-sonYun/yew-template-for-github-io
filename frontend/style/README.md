@@ -1,1 +1,1 @@
-run `npm run build` to build css.
+run `npm run build` to build scss.

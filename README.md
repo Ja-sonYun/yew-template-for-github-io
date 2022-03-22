@@ -12,7 +12,7 @@ Directory
 │   ├── Trunk.toml              # run 'trunk serve' to serve on local,
 │   │                           # css under style folder will also tracked.
 │   │  
-│   ├── deploy.sh               # run 'deploy.sh' before deploy to build for release.
+│   ├── deploy.sh               # run 'deploy.sh' before run github action for github.io
 │   ├── index.html
 │   ├── src                     # yew source files
 │   │   └── main.rs

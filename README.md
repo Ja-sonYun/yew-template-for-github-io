@@ -47,6 +47,6 @@ Directory
 
 ## First setup
 
-move to the folder under frontend/style, run `npm i && npm run build`.
-after that, to watch and serve on local yew project, run `trunk serve` under frontend folder.
-before deploy, move to the frontend and run `./deploy.sh`, and push into github repository.
+move to the folder under frontend/style, run `npm i && npm run build`.   
+after that, to watch and serve on local yew project, run `trunk serve` under frontend folder.   
+before deploy, move to the frontend and run `./deploy.sh`, and push into github repository.   

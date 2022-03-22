@@ -1,4 +1,5 @@
 ## Yew Template
+yew template that usable directly for github.io.
 
 ```
 Directory

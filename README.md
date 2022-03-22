@@ -10,25 +10,15 @@ Directory
 │   ├── README.md
 │   ├── Trunk.toml              # run 'trunk serve' to serve on local,
 │   │                           # css under style folder will also tracked.
-│   ├── deploy.sh               # run this file to prepare deploy.
+│   │  
+│   ├── deploy.sh               # run 'deploy.sh' before deploy to build for release.
 │   ├── index.html
-│   ├── src
-│   │   ├── components
-│   │   │   ├── button.rs
-│   │   │   └── input.rs
-│   │   ├── components.rs
-│   │   ├── main.rs
-│   │   ├── pages
-│   │   │   ├── hello.rs
-│   │   │   ├── home
-│   │   │   │   ├── header.rs
-│   │   │   │   └── navigator.rs
-│   │   │   └── home.rs
-│   │   └── pages.rs
+│   ├── src                     # yew source files
+│   │   └── main.rs
 │   ├── static
-│   └── style                   # run 'npm run build' to build css
+│   └── style                   # run 'npm run build' to build scss and tailwind.
 │       ├── README.md
-│       ├── css
+│       ├── css                 # css under here
 │       │   ├── index.scss
 │       │   ├── main.scss
 │       │   └── tailwind_base.css

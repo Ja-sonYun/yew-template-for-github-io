@@ -10,7 +10,6 @@ yew = "0.19"
 serde = "1.0.117"
 reqwasm = "0.4.1"
 gloo = "0.6.0"
-thiserror = "1.0.30"
 yew-router = "0.16.0"
 
 [dependencies.web-sys]

@@ -13,4 +13,7 @@ watch = [
 stage = "build"
 command = "sh"
 # run tailwind build with webpack
-command_arguments = ["-c", "cd ./style && npx webpack && npx tailwindcss -i ./css/tailwind_base.css -o ./dist/tailwind.css"]
+command_arguments = [
+    "-c",
+    "cd ./style && npm run build"
+]

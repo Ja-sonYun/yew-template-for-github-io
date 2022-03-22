@@ -1,3 +1,6 @@
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./dist/tailwind.css ***!
+  \*********************************************************************/
 /*
 ! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
 */
@@ -472,3 +475,25 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
+
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./css/index.css ***!
+  \*****************************************************************/
+
+
+/*!******************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./css/index.scss ***!
+  \******************************************************************/
+html {
+    background-color: #15191D;
+    color: #DCDCDC;
+}
+
+body {
+    font-family: Courier, Monospace;
+}
+
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./css/main.scss ***!
+  \*****************************************************************/
+

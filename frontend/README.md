@@ -5,5 +5,5 @@ index.html will be moved to the root of this project.
 
 ------
 
-To use without github.io, just remove deploy.sh and use `trunk build`.
+To use without github.io, just remove deploy.sh and use `trunk build`.   
 Also remove index.html and public folder under root of this project.

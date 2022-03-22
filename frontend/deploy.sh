@@ -1,8 +1,8 @@
-#!/bin/zsh
+#!/bin/bash
 
 cd ./style
-[ -d "/node_modules" ] && echo "Installing node modules..." && npm install
-[ -f "/dist/main.css" ] && echo "Building style..." && npm run build
+[[ ! -d "node_modules" ]] && echo "Installing node modules..." && npm install
+[[ ! -f "dist/main.css" ]] && echo "Building style..." && npm run build
 cd ..
 
 if ! type "trunk" > /dev/null; then

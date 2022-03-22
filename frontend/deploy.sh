@@ -1,14 +1,16 @@
 #!/bin/zsh
 
-if [ ! -d "./style/node_modules" ]; then
+cd ./style
+if [ ! -d "/node_modules" ]; then
     echo "Installing node modules..."
-    cd ./style && npm install
+    npm install
 fi
 
-if [ ! -f "./style/dist/main.css" ]; then
+if [ ! -f "/dist/main.css" ]; then
     echo "Building style..."
-    cd ./style && npm run build
+    npm run build
 fi
+cd ..
 
 if ! type "trunk" > /dev/null; then
     echo "trunk not installed."

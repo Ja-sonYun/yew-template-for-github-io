@@ -1,9 +1,7 @@
 ## Yew Template for Github.io
-Yew template that usable directly for github.io (or [as the normal yew template](https://github.com/Ja-sonYun/yew-template-for-github-io/blob/main/README.md#as-a-normal-templatenot-for-githubio) with css／scss stuffs without github.io).
+Yew template that usable directly for github.io (or as the normal yew template with css／scss stuffs without github.io).
 
 [About github.io](https://pages.github.com/)  
- 
-If you want to use this template for your project github.io page(not the username github.io), check [here](https://github.com/Ja-sonYun/yew-template-for-github-io/blob/main/README.md#for-your-project-githubio-pagenot-the-username-githubio)
 
 ```
 Directory
@@ -54,7 +52,7 @@ With `--release` options will perform move generated `index.html` by trunk into 
 ## For your project github.io page(not the username github.io)
 
 If you are using this for your project github.io page, you need to modify `Trunk.toml`.   
-Change toml variable `public_url="/"` to `public_url="{your-project-name}/"` in `Trunk.toml`.
+Change toml variable `public_url="/public"` to `public_url="/public/{your-project-name}"` in `Trunk.toml`.
 
 
 ## As a normal template(not for github.io)

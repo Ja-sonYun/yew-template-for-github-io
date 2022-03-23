@@ -3,8 +3,8 @@ target = "index_base.html"
 dist = "public"
 release = false
 # IF YOU USING GITHUB.IO FOR YOUR PROJECT, REPLACE public_url INTO YOUR PROJECT NAME LIKE BELOW
-# public_url = "{your-project-name}/"
-public_url = "/"
+# public_url = "{your-project-name}/public"
+public_url = "/public"
 
 [watch]
 watch = [

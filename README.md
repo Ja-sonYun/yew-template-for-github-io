@@ -1,6 +1,8 @@
 ## Yew Template for Github.io
 Yew template that usable directly for github.io (or as the normal yew template with css／scss stuffs without github.io).
 
+[About github.io](https://pages.github.com/)
+
 ```
 Directory
 ├── CNAME

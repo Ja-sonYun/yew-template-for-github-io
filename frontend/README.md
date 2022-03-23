@@ -6,7 +6,7 @@ index.html will be moved to the root of this project.
 ## For your project github.io page(not the username github.io)
 
 If you are using this for your project github.io page, you need to modify `deploy.sh`.   
-Change bash variable `PROJECT_NAME="/"` to `PROJECT_NAME="/your-project"` in `deploy.sh`.
+Change bash variable `PROJECT_NAME=""` to `PROJECT_NAME="/your-project"` in `deploy.sh`.(slash necessary at the front of the project name)
 
 
 ## As a normal template(not for github.io)

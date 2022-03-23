@@ -1,0 +1,40 @@
+[build]
+target = "index_base.html"
+dist = "public"
+release = false
+# IF YOU USING GITHUB.IO FOR YOUR PROJECT, REPLACE public_url INTO YOUR PROJECT NAME LIKE BELOW
+# public_url = "{your-project-name}/"
+public_url = "/"
+
+[watch]
+watch = [
+    # also watch style folder
+    "./style/css/"
+]
+
+[clean]
+dist = "public"
+
+[[hooks]]
+stage = "build"
+command = "sh"
+# run tailwind build with webpack
+command_arguments = [
+    "-c",
+    # remove index.html if current build is not release.
+    "[ \"$TRUNK_PROFILE\" = \"debug\" ] && rm -f ./index.html || :;cd ./style && npm run build",
+]
+
+# ==================================================
+# UNCOMMENT ALL BELOW IF YOU USING WITHOUT GITHUB.IO
+# ==================================================
+[[hooks]]
+stage = "post_build"
+command = "sh"
+# move generated index.html to root
+command_arguments = [
+    "-c",
+    # move index.html to root if current build is release.
+    "[ \"$TRUNK_PROFILE\" = \"release\" ] && mv $TRUNK_STAGING_DIR/index.html ./index.html || :"
+]
+# ==================================================

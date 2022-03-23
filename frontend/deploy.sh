@@ -1,6 +1,8 @@
 #!/bin/bash
 
-PROJECT_NAME="/" # add your project name after slash if you're using this template for your project github.io page.
+PROJECT_NAME=""
+# add your project name like below (slash necessary at the end of the string)
+# if you're using this template for your project github.io page.
 # PROJECT_NAME="/your-project"
 
 cd ./style

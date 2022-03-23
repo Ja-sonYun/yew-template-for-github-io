@@ -7,3 +7,8 @@ index.html will be moved to the root of this project.
 
 To use without github.io, just remove deploy.sh and use `trunk build`.   
 Also remove index.html and public folder under root of this project.
+
+------
+
+If you are using this for your project github.io page, you need to modify `deploy.sh`.   
+Change bash variable `PROJECT_NAME="/"` to `PROJECT_NAME="/your-project"` in `deploy.sh`.

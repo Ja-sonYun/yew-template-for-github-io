@@ -8,8 +8,9 @@ public_url = "/yew-template-for-github-io/"
 
 [watch]
 watch = [
-    # also watch style folder
-    "./css/"
+    "src/",
+    "css/",
+    "static/",
 ]
 
 [clean]

@@ -24,7 +24,7 @@ fn switch(routes: &Route) -> Html {
 #[function_component(App)]
 fn app() -> Html {
     html! {
-        <BrowserRouter>
+        <BrowserRouter basename="/yew-template-for-github-io/">
             <Switch<Route> render={Switch::render(switch)} />
         </BrowserRouter>
     }

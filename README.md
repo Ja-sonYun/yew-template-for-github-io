@@ -44,12 +44,14 @@ github action is cofigured. just push it to the main branch.
 ## For {username}.github.io page
 
 you need to modify [this line](https://github.com/Ja-sonYun/yew-template-for-github-io/blob/main/Trunk.toml#L5-L7)
-and [this line](https://github.com/Ja-sonYun/yew-template-for-github-io/blob/main/static/404.html#L7-L9)
+and [this line](https://github.com/Ja-sonYun/yew-template-for-github-io/blob/main/static/404.html#L25) to 0  
+also check `./src/main.rs`
 
 ## For {username}.github.io/{project_name} page
 
 you need to modify [this line](https://github.com/Ja-sonYun/yew-template-for-github-io/blob/main/Trunk.toml#L5-L7)
-and [this line](https://github.com/Ja-sonYun/yew-template-for-github-io/blob/main/static/404.html#L7-L9)
+and [this line](https://github.com/Ja-sonYun/yew-template-for-github-io/blob/main/static/404.html#L25) to 1
+also check `./src/main.rs`
 
 ## As a normal template(not for github.io)
 

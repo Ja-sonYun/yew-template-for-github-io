@@ -4,7 +4,9 @@
   <meta charset="utf-8">
   <title>My App</title>
   <script>
-    const SEGMENT_COUNT = 0;
+    const SEGMENT_COUNT = 1;
+    // const SEGMENT_COUNT = 0;  // for {username}.github.io
+    // const SEGMENT_COUNT = 1;  // for {username}.github.io/{project_name}
     const loc = window.location
     const origin = loc.origin;  //=> https://yourname.github.io
     const path = loc.href.substr(origin.length + 1);  //=> repo-name/book/123

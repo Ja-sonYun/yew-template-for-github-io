@@ -2,19 +2,33 @@ use yew::prelude::*;
 use yew_router::prelude::*;
 
 #[derive(Clone, Routable, PartialEq)]
-enum Route {
-    #[at("/")]
+enum RootRoute {
+    #[at("/yew-template-for-github-io/")]
     Home,
-    #[at("/about")]
+    #[at("/yew-template-for-github-io/:s")]
+    Route,
+}
+
+#[derive(Clone, Routable, PartialEq)]
+enum Route {
+    #[at("/yew-template-for-github-io/about")]
     About,
     #[not_found]
-    #[at("/404")]
+    #[at("/yew-template-for-github-io/404")]
     NotFound,
+}
+
+fn root_route(routes: &RootRoute) -> Html {
+    match routes {
+        RootRoute::Home => html! { <p class="text-4xl">{ "Yew Template" }</p> },
+        RootRoute::Route => html! {
+            <Switch<Route> render={Switch::render(switch)} />
+        },
+    }
 }
 
 fn switch(routes: &Route) -> Html {
     match routes {
-        Route::Home => html! { <p class="text-4xl">{ "Yew Template" }</p> },
         Route::About => html! { <p>{ "About" }</p> },
         Route::NotFound => html! { <p>{ "Not Found" }</p> },
     }
@@ -24,8 +38,14 @@ fn switch(routes: &Route) -> Html {
 #[function_component(App)]
 fn app() -> Html {
     html! {
-        <BrowserRouter basename="/yew-template-for-github-io/">
-            <Switch<Route> render={Switch::render(switch)} />
+        // ********************************************************
+        // **    basename is not supported on yew 0.19.0 yet.    **
+        // <BrowserRouter basename="/yew-template-for-github-io/">
+        //     <Switch<Route> render={Switch::render(switch)} />
+        // </BrowserRouter>
+        // ********************************************************
+        <BrowserRouter>
+            <Switch<RootRoute> render={Switch::render(root_route)} />
         </BrowserRouter>
     }
 }

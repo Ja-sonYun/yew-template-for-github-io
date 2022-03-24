@@ -51,7 +51,7 @@ also check `./src/main.rs`
 
 you need to modify [this line](https://github.com/Ja-sonYun/yew-template-for-github-io/blob/main/Trunk.toml#L5-L7)
 and [this line](https://github.com/Ja-sonYun/yew-template-for-github-io/blob/main/static/404.html#L25) to 1
-also check `./src/main.rs`
+also check `./src/main.rs`   
 When you want to deploy on your machine, run `trunk serve --public-url=/{project_name}/`
 
 ## As a normal template(not for github.io)

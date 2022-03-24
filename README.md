@@ -39,7 +39,7 @@ gh-pages branch
 ## Things that you need to do
 
 Go Setting > Code and automation > Pages > Github Pages > Source and change branch from main to gh-pages. if not exists, create new branch named gh-pages.   
-github action is cofigured. just push it to the main branch.
+github action is cofigured. just push it to the main branch, then outputs of `trunk build --release` will automatically deployed.
 
 ## For {username}.github.io page
 

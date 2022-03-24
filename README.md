@@ -41,10 +41,13 @@ gh-pages branch
 Go Setting > Code and automation > Pages > Github Pages > Source and change branch from main to gh-pages. if not exists, create new branch named gh-pages.   
 github action is cofigured. just push it to the main branch.
 
-## For your project github.io page(not the username github.io)
+## For {username}.github.io page
 
-If you are using this for your project github.io page, you need to modify `Trunk.toml`.  
-Change field [`public_url="/"`](https://github.com/Ja-sonYun/yew-template-for-github-io/blob/main/Trunk.toml#L7) to [`public_url="/{your-project-name}/"`](https://github.com/Ja-sonYun/yew-template-for-github-io/blob/main/Trunk.toml#L6) in `Trunk.toml`.  
+you need to modify [this line](https://github.com/Ja-sonYun/yew-template-for-github-io/blob/main/Trunk.toml#L5-L7)
+
+## For {username}.github.io/{project_name} page
+
+you need to modify [this line](https://github.com/Ja-sonYun/yew-template-for-github-io/blob/main/Trunk.toml#L5-L7)
 
 ## As a normal template(not for github.io)
 

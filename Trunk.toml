@@ -2,9 +2,9 @@
 target = "index.html"
 dist = "dist"
 release = false
-# IF YOU USING GITHUB.IO FOR YOUR PROJECT, REPLACE public_url INTO YOUR PROJECT NAME LIKE BELOW.
-# public_url = "/{your-project-name}/"
-public_url = "/"
+public_url = "/yew-template-for-github-io/"
+# public_url = "/{project_name}/"            # for {username}.github.io/{project_name}
+# public_url = "/"                           # for {username}.github.io
 
 [watch]
 watch = [

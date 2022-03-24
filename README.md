@@ -53,7 +53,7 @@ and [this line](https://github.com/Ja-sonYun/yew-template-for-github-io/blob/mai
 
 ## As a normal template(not for github.io)
 
-To use without github.io, open `Trunk.toml` and remove [`public_url`](https://github.com/Ja-sonYun/yew-template-for-github-io/blob/main/Trunk.toml#L7) field.  
+To use without github.io, open `Trunk.toml` and remove [`public_url`](https://github.com/Ja-sonYun/yew-template-for-github-io/blob/main/Trunk.toml#L5) field.  
 Also remove `404.html` in static folder and [this line](https://github.com/Ja-sonYun/yew-template-for-github-io/blob/main/index.html#L7) in `index.html`.  
 Lastly remove `.github/workflow` folder.
 

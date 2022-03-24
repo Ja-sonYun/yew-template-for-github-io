@@ -3,6 +3,7 @@ use yew_router::prelude::*;
 
 // ===================================================================================
 // for {username}.github.io/{repo_name}
+// replace 'yew-template-for-github.io' to your repo name
 
 #[derive(Clone, Routable, PartialEq)]
 enum RootRoute {
@@ -39,9 +40,9 @@ fn switch(routes: &Route) -> Html {
 
 // ===================================================================================
 // for {username}.github.io
-//
+
 // #[derive(Clone, Routable, PartialEq)]
-//  enum Route {
+//  enum RootRoute {
 //      #[at("/")]
 //      Home,
 //      #[at("/about")]
@@ -53,12 +54,12 @@ fn switch(routes: &Route) -> Html {
 
 //  fn root_route(routes: &Route) -> Html {
 //      match routes {
-//          Route::Home => html! { <p class="text-4xl">{ "Yew Template" }</p> },
-//          Route::About => html! { <p>{ "About" }</p> },
-//          Route::NotFound => html! { <p>{ "Not Found" }</p> },
+//          RootRoute::Home => html! { <p class="text-4xl">{ "Yew Template" }</p> },
+//          RootRoute::About => html! { <p>{ "About" }</p> },
+//          RootRoute::NotFound => html! { <p>{ "Not Found" }</p> },
 //      }
 //  }
-//
+
 // ===================================================================================
 
 /// main root

@@ -38,7 +38,7 @@ gh-pages branch
 
 ## Things that you need to do
 
-Go Setting > Code and automation > Pages > Github Pages > Source and change branch from main to gh-pages. if not exists, create new branch named gh-pages.
+Go Setting > Code and automation > Pages > Github Pages > Source and change branch from main to gh-pages. if not exists, create new branch named gh-pages.   
 github action is cofigured. just push it to the main branch.
 
 ## For your project github.io page(not the username github.io)

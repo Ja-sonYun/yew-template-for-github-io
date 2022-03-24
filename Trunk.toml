@@ -1,0 +1,25 @@
+[build]
+target = "index.html"
+dist = "dist"
+release = false
+# IF YOU USING GITHUB.IO FOR YOUR PROJECT, REPLACE public_url INTO YOUR PROJECT NAME LIKE BELOW.
+# public_url = "/{your-project-name}/"
+public_url = "/"
+
+[watch]
+watch = [
+    # also watch style folder
+    "./css/"
+]
+
+[clean]
+dist = "dist"
+
+[[hooks]]
+stage = "pre_build"
+command = "sh"
+# run tailwind build with webpack
+command_arguments = [
+    "-c",
+    "[ ! -d \"./node_modules\" ] && npm i || :; npm run build_css",
+]

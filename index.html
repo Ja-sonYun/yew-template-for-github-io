@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <link data-trunk rel="css" href="./dist/css/main.css"/>
+  <link data-trunk rel="copy-file" href="./static/404.html"/>
+  <title>yew template</title>
+</head>
+<body>
+  <script>
+    (function(){
+      const query = window.location.search;
+      if (query.startsWith('?p=')) {
+        const route = decodeURIComponent(query.substr(3));
+        window.history.replaceState(null, null, route);
+      }
+    })();
+  </script>
+</body>
+</html>

@@ -8,6 +8,7 @@ public_url = "/yew-template-for-github-io/"
 
 [watch]
 watch = [
+    "./index.html",
     "src/",
     "css/",
     "static/",

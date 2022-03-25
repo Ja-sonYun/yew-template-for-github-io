@@ -1,5 +1,5 @@
 ## [Yew](https://yew.rs/) Template for Github.io
-Yew template that deployable as is for github.io (or [as a normal yew template](https://github.com/Ja-sonYun/yew-template-for-github-io#as-a-normal-templatenot-for-githubio) with css/scss stuffs without github.io), with [tailwind.css](https://tailwindcss.com/) and webpack with your css/scss.
+Yew template that deployable as is for github.io (or [as a normal yew template](https://github.com/Ja-sonYun/yew-template-for-github-io#as-a-normal-templatenot-for-githubio) with css/scss stuffs without github.io), with [tailwind.css](https://tailwindcss.com/) and webpack with your css/scss and [trunk](https://trunkrs.dev) for build.
 
 [About github.io](https://pages.github.com/)  
 

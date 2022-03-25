@@ -12,24 +12,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    # configure the environment
     - uses: actions/checkout@v2
-
     - uses: actions/setup-node@v3.0.0
       with:
         node-version: '16'
-
     - name: rust-toolchain
       uses: actions-rs/toolchain@v1.0.6
       with:
         toolchain: stable
         target: wasm32-unknown-unknown
-
     - name: trunk-action
       uses: jetli/trunk-action@v0.1.0
 
+    # build css and rust
     - name: run trunk
       run: trunk build --release
 
+    # deploy for github.io
     - name: GitHub Pages action
       uses: peaceiris/actions-gh-pages@v3.7.3
       with:

@@ -24,7 +24,7 @@ enum Route {
 
 fn root_route(routes: &RootRoute) -> Html {
     match routes {
-        RootRoute::Home => html! { <p class="text-4xl">{ "Yew Template" }</p> },
+        RootRoute::Home => html! { <p class="text-4xl">{ "Yew Template. " }</p> },
         RootRoute::Route => html! {
             <Switch<Route> render={Switch::render(switch)} />
         },

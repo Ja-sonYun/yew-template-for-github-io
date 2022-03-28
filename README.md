@@ -40,7 +40,7 @@ gh-pages branch
 
 Go Setting > Code and automation > Pages > Github Pages > Source and change branch from main to gh-pages. if not exists, create new branch named gh-pages.   
 [github action](https://github.com/Ja-sonYun/yew-template-for-github-io/blob/main/.github/workflows/publish_gh_pages.yml) is cofigured. just push your codes to the main branch, and then outputs of `trunk build --release` will automatically deployed.  
-While running `trunk serve`, trunk will also watch the css folder, and do compile css/scss when it has any changes like rust codes in src.
+While running `trunk serve`, trunk will watch static and css folder, and do compile for all codes include css/scss in css folder when they had any changes like rust codes in src.
 
 ## For {username}.github.io page
 

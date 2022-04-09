@@ -1,3 +1,5 @@
+![gh-pages-publish](https://github.com/ja-sonyun/yew-template-for-github-io/actions/workflows/publish_gh_pages.yml/badge.svg)
+
 ## [Yew](https://yew.rs/) Template for Github.io
 Yew template that deployable as is for github.io (or [as a normal yew template](https://github.com/Ja-sonYun/yew-template-for-github-io#as-a-normal-templatenot-for-githubio) with css/scss stuffs without github.io), with [tailwind.css](https://tailwindcss.com/) and webpack with your css/scss and [trunk](https://trunkrs.dev) for build.
 
